@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "flintlock-weaponry",
+	"version": "0.1",
+	"name": "Flintlock Weaponry",
+	"description": "Adds Flintlock Weapons to Minecraft",
+	"authors": [
+		"Neuromancer815"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/flintlock-weaponry/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"flintlock.weaponry.FlintlockWeaponry"
+		],
+		"Client": [
+			"flintlock.weaponry.FlintlockWeaponryClient"
+		],
+		"fabric-datagen": [
+			"flintlock.weaponry.FlintlockWeaponryDataGenerator"
+		]
+	},
+	"mixins": [
+		"flintlock-weaponry.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
