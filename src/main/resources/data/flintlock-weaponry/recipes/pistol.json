@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "pattern": [
+    " FA",
+    "IGS",
+    "  S"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:flint_and_steel"
+    },
+
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+
+    "S": {
+      "item": "minecraft:stick"
+    },
+
+    "A": {
+      "item": "flintlock-weaponry:ammunition"
+    }
+  }
+}
